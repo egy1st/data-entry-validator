@@ -1,0 +1,17 @@
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\bin\x86\Debug\Dc_DataEntryValidator40.exe
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\bin\x86\Debug\Dc_DataEntryValidator40.pdb
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\bin\x86\Debug\Dc_DataEntryValidator40.xml
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\bin\x86\Debug\Dc_DataEntryValidator40.dll
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\bin\x86\Debug\System.Drawing.dll
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\bin\x86\Debug\System.Windows.Forms.dll
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\obj\x86\Debug\DC_DataEntry Validator.vbprojResolveAssemblyReference.cache
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\obj\x86\Debug\Form1.resources
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\obj\x86\Debug\DC_DataEntry Validator.vbproj.GenerateResource.Cache
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\obj\x86\Debug\Dc_DataEntryValidator40.exe
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\obj\x86\Debug\Dc_DataEntryValidator40.xml
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\obj\x86\Debug\Dc_DataEntryValidator40.pdb
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\bin\Debug\Dc_DataEntryValidator40.exe
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\bin\Debug\Dc_DataEntryValidator40.pdb
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\bin\Debug\Dc_DataEntryValidator40.xml
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\bin\Debug\System.Drawing.dll
+I:\EgyFirst\Data Entry Validator\Tutorial DataEntry Validator\bin\Debug\System.Windows.Forms.dll

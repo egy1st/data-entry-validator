@@ -1,0 +1,61 @@
+<html dir="rtl">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Tutorial</title>
+</head>
+
+<body>
+
+<h1 dir="ltr"><span style="font-weight: 400"><font color="#000080">Tutorial</font></span></h1>
+<hr dir="ltr">
+<p dir="ltr">This tutorial describe most of features supported by DC.DataEntryValidator</p>
+<p dir="ltr">also you can refer to the project&nbsp; example which installed by 
+default into C:\Program Files\Dynamic Components\DataEntryValidator\<span style="font-weight: 400">Tutorial\</span></p>
+<p dir="ltr">&nbsp;</p>
+<p dir="ltr" align="left">Dim DV As New DynamicComponents.DataEntryValidator()</p>
+<p dir="ltr" align="left">Dim CN As New ADODB.Connection()</p>
+<p dir="ltr" align="left">Dim oCust As New ADODB.Recordset()</p>
+<p dir="ltr" align="left">Dim oAccess As New Access.Application()</p>
+<p dir="ltr" align="left">Dim DAO_DBEngine As New DAO.DBEngine()</p>
+<p dir="ltr" align="left">&nbsp;</p>
+<p dir="ltr" align="left"><font color="#000080">Private Sub TestForm_Load(ByVal eventSender As 
+System.Object, ByVal eventArgs As System.EventArgs) Handles MyBase.Load</font></p>
+<p dir="ltr" align="left">'establish DSN</p>
+<p dir="ltr" align="left">oAccess.DBEngine.RegisterDatabase(&quot;DCDM_Nwind&quot;, 
+&quot;Microsoft Access Driver (*.mdb)&quot;, True, &quot;DBQ=&quot; &amp; VB6.GetPath &amp; &quot;\Nwind.mdb&quot;)</p>
+<p dir="ltr" align="left">CN.Open(&quot;DSN=DCDM_NWind&quot;)</p>
+<p dir="ltr" align="left">oCust.Open(&quot;Customers&quot;, CN, 
+oCust.CursorType.adOpenKeyset, oCust.LockType.adLockOptimistic)</p>
+<p dir="ltr" align="left">PopulateDate()</p>
+<p dir="ltr" align="left">DV.InitForm(Me)&nbsp; <br>
+//must be your first assignment , an error occurs if not</p>
+<p dir="ltr" align="left">DV.NumericFields(&quot;CustomerId&quot;) <br>
+//CustomerId must be numeric characters(0123456789)</p>
+<p dir="ltr" align="left">DV.AlphabeticFields(&quot;CustomerName&quot;)<br>
+&nbsp;//CustomerName must be alphabetic characters 
+(abcdefghijklmnopqrstuvwzyzABCDEFGHIJKLMNOPQRSTUVWXYZ) </p>
+<p dir="ltr" align="left">DV.FirstCharOfWordsFields(&quot;CustomerName&quot;)<br>
+&nbsp;//'First charecter of every word will be in uooer case</p>
+<p dir="ltr" align="left">DV.AlphaNumericFields(&quot;Address&quot;)<br>
+&nbsp;//'Address must be numeric or alphabetic characters 
+(0123456789abcdefghijklmnopqrstuvwzyzABCDEFGHIJKLMNOPQRSTUVWXYZ) </p>
+<p dir="ltr" align="left">DV.FirstCharOnlyFields(&quot;Address&quot;)<br>
+&nbsp;//'First charecter of first word only will be in uooer case </p>
+<p dir="ltr" align="left">DV.NumericFields(&quot;phone&quot;)<br>
+&nbsp;//'Phone must be numeric characters(0123456789)</p>
+<p dir="ltr" align="left">DV.DecimalFields(&quot;MaxDebit&quot;)<br>
+&nbsp;//'MaxDebit must be decimal characters(0123456789 &amp; .) </p>
+<p dir="ltr" align="left">DV.DecimalPlaces(2)<br>
+&nbsp;//'MaxDebit will be formatted with 2 decimal digits</p>
+<p dir="ltr" align="left">DV.DateFields(&quot;LastDeal&quot;)<br>
+&nbsp;//'LastDeal must be accepted date(0123456789-\/)</p>
+<font SIZE="2">
+<p dir="ltr" align="left"></font><font color="#000080">End Sub</font></p>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=DC DataEntry Validator v1.0.chm
+Contents file=DataMangerHelp.hhc
+Default topic=Dynamic Components DataEntry Validator.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=DataMangerHelp.hhk
+Language=0x409 English (United States)
+Title=DC DataEntry Validator Help
+
+
+[FILES]
+alphabeticfields.htm
+alphanumericfields.htm
+contact us.htm
+datefields.htm
+decimalfields.htm
+decimalplaces.htm
+features.htm
+firstcharonlyfields.htm
+how to order.htm
+initform.htm
+license.htm
+lowercasefields.htm
+numericfields.htm
+specialchars.htm
+specialcharsfields.htm
+system requirements.htm
+uppercasefields.htm
+Overview.htm
+Dynamic Components DataEntry Validator.htm
+
+[INFOTYPES]
+

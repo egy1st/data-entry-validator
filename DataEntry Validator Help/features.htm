@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<META content="Microsoft FrontPage 5.0" name=GENERATOR>
+<TITLE>Features</TITLE>
+</HEAD>
+<BODY>
+<H1><FONT color=#000080>Features
+<HR>
+</FONT></H1>
+<P>Few&nbsp; Lines to add in your Form_Load event&nbsp; and you will get full 
+control over your data entry by Validate it and format it&nbsp; </P>
+<P><FONT color=#000080><STRONG>You can:</STRONG></FONT></P>
+<UL>
+  <li>Validate your data entry by restrict it to predefined 
+  type(Numeric-Alphabetic-AlphaNumeric-Date-Decimal) or to your defined 
+  characters </li>
+  <li>Notify you with red forecolor if&nbsp; your entry is not proper </li>
+  <li>Format numbers by define decimal places for numeric entry </li>
+  <li>Format string by&nbsp; define letter case for charactes entry (Lower Case 
+  , Upper Case , Only First Character is Capital )</li>
+</UL>
+<P><b><font color="#000080">Note:</font></b></P>
+<P>alphabetic characters may be any character with in 
+(abcdefghijklmnopqrstuvwzyzABCDEFGHIJKLMNOPQRSTUVWXYZ) </P>
+<P>&nbsp;numeric characters may be any character with in (0123456789)</P>
+<P>AlphaNumericFields&nbsp; must be numeric or alphabetic characters 
+(0123456789abcdefghijklmnopqrstuvwzyzABCDEFGHIJKLMNOPQRSTUVWXYZ) </P>
+<P>DateFields&nbsp; must be accepted date like (13/12/1971) if your data is 
+wrong we will notify you with red forecolor</P>
+<P><FONT color=#000080><STRONG>Example:</STRONG></FONT></P>
+<p dir="ltr" align="left">DV.InitForm(Me)&nbsp; <br>
+<br>
+DV.<a href="NumericFields.htm">NumericFields</a>(&quot;CustomerId&quot;) <br>
+DV.<a href="AlphabeticFields.htm">AlphabeticFields</a>(&quot;CustomerName&quot;)<br>
+DV.<a href="FirstCharOnlyFields.htm">FirstCharOfWordsFields</a>(&quot;CustomerName&quot;)<br>
+DV.<a href="AlphaNumericFields.htm">AlphaNumericFields</a>(&quot;Address&quot;)<br>
+DV.<a href="FirstCharOnlyFields.htm">FirstCharOnlyFields</a>(&quot;Address&quot;)<br>
+DV.<a href="NumericFields.htm">NumericFields</a>(&quot;phone&quot;)<br>
+DV.<a href="DecimalFields.htm">DecimalFields</a>(&quot;MaxDebit&quot;)<br>
+DV.<a href="DecimalPlaces.htm">DecimalPlaces</a>(2)<br>
+DV.<a href="DateFields.htm">DateFields</a>(&quot;LastDeal&quot;)<br>
+&nbsp;</p>
+<p>&nbsp;</p>
+</BODY>
+</HTML>

@@ -1,0 +1,14 @@
+I:\EgyFirst\Data Entry Validator\DataEntry Validator DLL\bin\x86\Release\Dc_DataEntryValidator40.dll
+I:\EgyFirst\Data Entry Validator\DataEntry Validator DLL\bin\x86\Release\Dc_DataEntryValidator40.xml
+I:\EgyFirst\Data Entry Validator\DataEntry Validator DLL\bin\x86\Release\System.Drawing.dll
+I:\EgyFirst\Data Entry Validator\DataEntry Validator DLL\bin\x86\Release\System.Management.dll
+I:\EgyFirst\Data Entry Validator\DataEntry Validator DLL\bin\x86\Release\System.Windows.Forms.dll
+I:\EgyFirst\Data Entry Validator\DataEntry Validator DLL\obj\x86\Release\DynamicComponents.DataEntryValidator.resources
+I:\EgyFirst\Data Entry Validator\DataEntry Validator DLL\obj\x86\Release\DC_DataEntry Validator.vbproj.GenerateResource.Cache
+I:\EgyFirst\Data Entry Validator\DataEntry Validator DLL\obj\x86\Release\Dc_DataEntryValidator40.dll
+I:\EgyFirst\Data Entry Validator\DataEntry Validator DLL\obj\x86\Release\Dc_DataEntryValidator40.xml
+I:\EgyFirst\Data Entry Validator\DataEntry Validator DLL\bin\Release\Dc_DataEntryValidator40.dll
+I:\EgyFirst\Data Entry Validator\DataEntry Validator DLL\bin\Release\Dc_DataEntryValidator40.xml
+I:\EgyFirst\Data Entry Validator\DataEntry Validator DLL\bin\Release\System.Drawing.dll
+I:\EgyFirst\Data Entry Validator\DataEntry Validator DLL\bin\Release\System.Management.dll
+I:\EgyFirst\Data Entry Validator\DataEntry Validator DLL\bin\Release\System.Windows.Forms.dll
